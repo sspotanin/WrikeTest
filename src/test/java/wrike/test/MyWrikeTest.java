@@ -21,7 +21,6 @@ public class MyWrikeTest extends BaseTest {
     private UserData userData;
     private boolean result;
 
-
     @BeforeMethod(alwaysRun = true)
     public void getPages(){
 
