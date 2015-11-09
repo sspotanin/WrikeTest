@@ -41,6 +41,7 @@ public class MyWrikeTest extends BaseTest {
         freeTrialPage.fillUpEmail(userData); // 4.fill it up email address(random generated)
         freeTrialPage.submitEmail(); // 5.click "Get started for free" button
         result = resendPage.registrationAssert(); // 6.check at the loaded page, that you have success confirmation of registration
+        resendPage.clickResend(); // 7.click resend button
     }
 
     @Test(priority = 1)
@@ -52,7 +53,7 @@ public class MyWrikeTest extends BaseTest {
         pricePage.fillUpEmail(userData); // 10.In appeared window fill it up another random genearted email
         pricePage.submitEmail(); // 11.click "Create my Wrike account" button
         resendPage.registrationAssert(); // 12.check at the loaded page, that you have success confirmation of registration
-        resendPage.clickResend(); // 7.click resend button
+        resendPage.clickResend(); // 13.click resend button
     }
 
 }
