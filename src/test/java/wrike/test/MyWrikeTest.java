@@ -31,6 +31,7 @@ public class MyWrikeTest extends BaseTest {
         freeTrialPage = initPage(FreeTrialPage.class);
     }
 
+
     @Test(priority = 0)
     public void checkFreeRegistration(){
         mainPage.getMainPage(); // 1.open url: wrike.com
