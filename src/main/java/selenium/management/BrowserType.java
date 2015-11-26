@@ -20,7 +20,6 @@ public enum BrowserType {
     }
 
     public static BrowserType browser(String name) {
-
         return browsersMap.get(name.toLowerCase().trim());
     }
 }
