@@ -21,8 +21,9 @@ public class ResendPage extends BasePage {
 
     public boolean registrationAssert(){
         Utils.waitPageLoad(2000);
-        Assert.assertTrue(driver.getCurrentUrl().contains("/resend"));
-        return driver.getCurrentUrl().contains("/resend");
+        final boolean assertion = driver.getCurrentUrl().contains("/resend");
+        Assert.assertTrue(assertion);
+        return assertion;
     }
 
     public void clickResend() {

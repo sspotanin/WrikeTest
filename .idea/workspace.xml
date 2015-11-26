@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3355f6c4-6d59-4e2a-9cf5-02a9784751c5" name="Default" comment="delete empty string">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/selenium/management/BaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/selenium/management/BaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/selenium/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/selenium/pages/MainPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/selenium/pages/PricePage.java" afterPath="$PROJECT_DIR$/src/main/java/selenium/pages/PricePage.java" />
+    <list default="true" id="3355f6c4-6d59-4e2a-9cf5-02a9784751c5" name="Default" comment="chang'e">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/selenium/management/BasePage.java" afterPath="$PROJECT_DIR$/src/main/java/selenium/management/BasePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/selenium/pages/ResendPage.java" afterPath="$PROJECT_DIR$/src/main/java/selenium/pages/ResendPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/selenium/management/Settings.java" afterPath="$PROJECT_DIR$/src/main/java/selenium/management/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/wrike/test/SimpleWrikeTest.java" afterPath="$PROJECT_DIR$/src/test/java/wrike/test/SimpleWrikeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/selenium/management/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/selenium/management/Utils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/selenium.properties" afterPath="$PROJECT_DIR$/src/test/resources/selenium.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WrikeTest.iws" />
@@ -29,7 +23,7 @@
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\SpacePunch\IdeaProjects\Wrike\WrikeTest" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -71,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/selenium/management/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33217993">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/selenium/pages/ResendPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,6 +111,18 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/selenium/management/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38235295">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,15 +194,15 @@
         <option value="$PROJECT_DIR$/src/main/java/selenium/pages/FreeTrialPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/selenium/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/wrike/test/MyWrikeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/selenium/management/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/selenium/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/selenium/pages/PricePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/selenium/management/BrowserType.java" />
         <option value="$PROJECT_DIR$/src/main/java/selenium/management/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/selenium.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/selenium/pages/ResendPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/selenium/management/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/selenium/management/Settings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/selenium/pages/ResendPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/selenium/management/BasePage.java" />
       </list>
     </option>
   </component>
@@ -732,7 +738,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448567689172</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delete empty string">
+      <created>1448571164537</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1448571164537</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -792,7 +804,8 @@
     <MESSAGE value="likkte changes" />
     <MESSAGE value="little changes" />
     <MESSAGE value="delete empty string" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete empty string" />
+    <MESSAGE value="chang'e" />
+    <option name="LAST_COMMIT_MESSAGE" value="chang'e" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -993,6 +1006,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,16 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33217993">
           <caret line="104" column="27" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/management/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,14 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.039035592">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/management/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1161,32 +1163,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/wrike/test/MyWrikeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/pages/ResendPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/selenium/management/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/management/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3520#3521#0" expanded="true" />
+            <element signature="e#3550#3551#0" expanded="true" />
+            <element signature="e#3588#3589#0" expanded="true" />
+            <element signature="e#3618#3619#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1201,16 +1197,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/management/Settings.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/wrike/test/MyWrikeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33217993">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3520#3521#0" expanded="true" />
-            <element signature="e#3550#3551#0" expanded="true" />
-            <element signature="e#3588#3589#0" expanded="true" />
-            <element signature="e#3618#3619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/pages/ResendPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/management/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/management/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38235295">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
