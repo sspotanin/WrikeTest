@@ -19,7 +19,6 @@ public class MainPage extends BasePage {
 
     public MainPage getMainPage(){
         driver.get(settings.getBaseUrl());
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         return initPage(MainPage.class);
     }
 
@@ -27,7 +26,7 @@ public class MainPage extends BasePage {
         //If browser window has narrow width, navigation buttons are under left-sided "pull menu" button
         if (!headLogin.isDisplayed()){
             navPull.click();
-            Utils.waiter(sideLogin);
+            Utils.eagerWaiter(sideLogin);
             sideLogin.click();
         }
         else headLogin.click();

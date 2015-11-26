@@ -51,7 +51,7 @@ public class SimpleWrikeTest {
         //If browser window has narrow width, navigation buttons are under 'side menu' button
         if (!webElement.isDisplayed()) { // 8.open "Pricing" link
             driver.findElement(By.className("nav_pull")).click();
-            Utils.waiter(webElement);
+            Utils.waiterNavPull(webElement);
             webElement.click();
         } else webElement.click();
 

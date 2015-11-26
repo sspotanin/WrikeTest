@@ -20,8 +20,9 @@ public class ResendPage extends BasePage {
 
 
     public boolean registrationAssert(){
-        Assert.assertEquals(suceededText.getText(), "Registration succeded");
-        return suceededText.getText().equals("Registration succeded");
+        Utils.waitPageLoad(2000);
+        Assert.assertTrue(driver.getCurrentUrl().contains("/resend"));
+        return driver.getCurrentUrl().contains("/resend");
     }
 
     public void clickResend() {
@@ -36,7 +37,7 @@ public class ResendPage extends BasePage {
     public void goToPricePage() {
         if (!pricing.isDisplayed()) {
             navPull.click();
-            Utils.waiter(pricing);
+            Utils.eagerWaiter(pricing);
             pricing.click();
         } else pricing.click();
     }

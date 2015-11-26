@@ -29,5 +29,4 @@ public class PricePage extends BasePage {
         driver.switchTo().defaultContent();
     }
 
-
 }
